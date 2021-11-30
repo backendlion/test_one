@@ -1,4 +1,4 @@
-"""Second Test
+"""
 Write a function that takes as arguments two arrays of integers. 
 Your function needs to determine whether the second array is a subsequence of the first one, returning true or false;
 """
