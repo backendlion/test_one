@@ -4,8 +4,13 @@ Your function needs to determine whether the second array is contained in the fi
 """
 
 def contains_second_array(array_one, array_two):
-        # Write your code here
-        pass
+        
+        for item in array_two:
+            try:
+                array_one.index(item)
+            except ValueError:
+                return False
+        return True
 
 
 
