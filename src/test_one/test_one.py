@@ -6,8 +6,14 @@ If that's the case, your function should return those two numbers in array fashi
 
 
 def two_sum(array, target):
-        # Write your code here
-        pass
+        ret = []
+        for i in range(0, len(array)):
+            for j in range(i, len(array)):
+                if (array[i] + array[j]) == target:
+                    ret.append(array[i])
+                    ret.append(array[j])
+                    return ret
+        return ret
 
 
 
